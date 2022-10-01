@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("back.jpg");
+    background-size: 70%;
+}
+
+.heading
+{
+    font-size: 20px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1px;
+    width: 98%;
+}
+
+.note
+{
+    font-size: 12px;
+    font-family: cursive;
+}
+
+button
+{
+    margin-top: 10px !important;
+}
+
+canvas
+{
+    margin-top: 20px;
+    margin-right: 20px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    animation: shadow 3s alternate-reverse infinite;
+    float: right;
+}
+
+@keyframes shadow
+{
+    0%
+    {
+            box-shadow: 2px 2px 15px aqua;
+    }
+    
+    100%
+    {
+            box-shadow: 4px 4px 17px red;
+    }
+}
