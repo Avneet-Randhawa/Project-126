@@ -55,6 +55,7 @@ function draw(){
         if(force.isPlaying() == false){
             onNon.stop();
             force.play();
+            document.querySelector("#song_name").innerHTML = "Song Name :- Force By Alan Walker";
          }
     }
 
@@ -64,6 +65,7 @@ function draw(){
         if(onNon.isPlaying() == false){
             force.stop();
             onNon.play();
+            document.querySelector("#song_name").innerHTML = "Song Name :- On and On By Cartoon";
     }
     }
 }
